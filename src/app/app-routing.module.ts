@@ -6,6 +6,7 @@ import { PrerequisitesComponent } from './mycomponents/prerequisites/prerequisit
 import { PlaygroundsComponent } from './mycomponents/playgrounds/playgrounds.component';
 
 const routes: Routes = [
+  { path: '', component: AboutreactComponent, outlet: 'secondary' },
   { path: 'aboutreact', component: AboutreactComponent, outlet: 'secondary' },
 
   { path: 'whyreact', component: WhyreactComponent , outlet: 'secondary'    },
