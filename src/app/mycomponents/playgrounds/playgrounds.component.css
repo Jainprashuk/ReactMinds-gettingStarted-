@@ -1,0 +1,12 @@
+.image{
+    width: 60%;
+    align-items: center;
+}
+
+.myimage{
+    display: flex;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+    /* align-content: center; */
+}
